@@ -9,8 +9,8 @@ This codebase is designed to help developers new to the Move language get up and
 1. **Basic Move Syntax**: Introduction to the fundamental syntax and structure of the Move language.
 2. **Resource-Oriented Programming**: Understanding the unique resource model in Move and how it differs from traditional programming paradigms.
 3. **Movement CLI**: How to set up and use the Movement command-line interface for building and managing Move projects.
-4. **Deploying to Movement Test Network**: Step-by-step guide on deploying Move modules to the Movement test network.
-5. **Interacting via Aptos TS SDK**: Demonstrating how to interact with deployed Move modules using the Aptos TypeScript SDK.
+4. **Deploying to Movement Test Network**: Step-by-step guide on deploying Move modules to the Movement test network. See also the [README.md](./sources/README.md)
+5. **Interacting via Aptos TS SDK**: Demonstrating how to interact with deployed Move modules using the Aptos TypeScript SDK. See also the [README.md](./node_scripts//README.md)
 
 ## Resources
 
