@@ -25,4 +25,6 @@ Docs:
 
 - [Install Movement CLI](https://docs.movementnetwork.xyz/devs/movementcli)
 
+- [Move module guide](https://aptos.dev/en/build/guides/first-move-module) (Aptos)
+
 Dive deeper with this workshop on [formal verification](https://www.youtube.com/watch?v=arNowpvckcQ). 
