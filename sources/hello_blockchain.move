@@ -23,10 +23,11 @@ module hello_blockchain::message {
         borrow_global<MessageHolder>(addr).message
     }
 
-
+    // sets or updates the message for the account
     public entry fun set_message(account: signer, message: string::String)
     acquires MessageHolder {
         let account_addr = signer::address_of(&account);
+        // the first check prevents overwriting or miss-managing resources
         if (!exists<MessageHolder>(account_addr)) {
             move_to(&account, MessageHolder {
                 message,
